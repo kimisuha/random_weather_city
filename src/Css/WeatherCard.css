@@ -1,0 +1,77 @@
+/* for me in the future, this a notes to know for next modify!
+this css style have 3 class
+    cr-weather: in a master class, its encompass 2 class remain, it control reponsitive, max width and more thing
+     if want modify text, column, default max width use that!
+    cr-left: a class include one image and some h3 tag, this show simple value and have background
+     if want change background, use that!
+    and cr-right: in this class, store what remains of weather card, one button to change another city
+     if want modify random city, use that!
+*/
+
+.cr-weather {
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+
+    border: 1px solid transparent;
+    border-radius: 14px;
+    box-sizing: border-box;
+
+    max-width: 50rem;
+
+    text-transform: capitalize;
+
+    background-color: #222831;
+    margin: auto;
+    margin-top: 15%;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 0.5rem;
+
+}
+
+.cr-left {
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border: 1px solid transparent;
+    border-radius: 14px;
+
+    padding: 1rem;
+}
+
+.cr-right {
+    padding: 1.5rem;
+    text-align: start;
+}
+
+.cr-right button {
+    background-color: darkcyan;
+    color: white;
+    text-transform: capitalize;
+
+    transform: translateX(70%) translateY(50%);
+}
+
+@media screen and (max-width: 1007px) {
+    .cr-weather{
+        max-width: 37rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cr-weather{
+        grid-template-columns: auto;
+        max-width: 25rem;
+    }
+
+    .cr-right{
+        text-align: center;
+    }
+    .cr-right button{
+        transform: translateX(10%) translateY(15%);
+    }
+}
+

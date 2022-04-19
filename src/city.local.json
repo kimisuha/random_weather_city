@@ -1,0 +1,15 @@
+[
+    {
+        "background": "https://media.istockphoto.com/photos/cirrocumulus-clouds-cloudscape-picture-id645173476?b=1&k=20&m=645173476&s=170667a&w=0&h=0wdytj1LA3mA1Jzp0j6_rgip60BxH9e5BAAE_vFlJQE=",
+        "description": "broken clouds",
+        "flag": true,
+        "humidity": 58,
+        "icoin": "https://openweathermap.org/img/w/04d.png",
+        "location": "Leisure Village",
+        "status": 200,
+        "temp": 282.1,
+        "temp_max": 283.74,
+        "temp_min": 280.86,
+        "winds": 10.29
+    }
+]
